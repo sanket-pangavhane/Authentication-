@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (ensure you don't track sensitive files)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output (for front-end if you’re serving from the same repo)
+build/
+dist/
+
+# Coverage folder (for test coverage reports)
+coverage/
+
+# Dependency directories for specific systems
+bower_components/
+
+# IDE and Editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package lock files (optional, but useful for consistency)
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Misc files
+*.bak
+*.tmp
